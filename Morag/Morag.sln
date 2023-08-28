@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoragEditor", "MoragEditor\MoragEditor.csproj", "{D25BB884-3BED-4CCE-A67E-617A8BF4C42C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{F3C55C85-EB85-4B60-BF2A-4E65D5A1110B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C55C85-EB85-4B60-BF2A-4E65D5A1110B}.Debug|x64.ActiveCfg = Debug|x64
+		{F3C55C85-EB85-4B60-BF2A-4E65D5A1110B}.Debug|x64.Build.0 = Debug|x64
+		{F3C55C85-EB85-4B60-BF2A-4E65D5A1110B}.Release|x64.ActiveCfg = Release|x64
+		{F3C55C85-EB85-4B60-BF2A-4E65D5A1110B}.Release|x64.Build.0 = Release|x64
+		{D25BB884-3BED-4CCE-A67E-617A8BF4C42C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D25BB884-3BED-4CCE-A67E-617A8BF4C42C}.Debug|x64.Build.0 = Debug|Any CPU
+		{D25BB884-3BED-4CCE-A67E-617A8BF4C42C}.Release|x64.ActiveCfg = Release|Any CPU
+		{D25BB884-3BED-4CCE-A67E-617A8BF4C42C}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0719536F-E508-49CA-B5D3-AACCC6C433A6}
+	EndGlobalSection
+EndGlobal

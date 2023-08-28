@@ -1,0 +1,19 @@
+USE WORD WRAP.
+
+like all my personal projects, i use Github to host my code. i have always used Github Desktop to make it easy for me to send over files, but I have decided to not install it on my new computer to familiarize myself with the Git command line program. 
+
+To initialize a project:
+1. Create a README.md (optional)
+    echo "# MyFirstGameEngine" >> README.md
+2. Initalize the repo
+    git init
+3. Add README.md as a file to monitor
+    git add README.md
+4. Make your first  (-m = message)
+    git commit -m "First Commit"
+5. Move/Rename branch to main
+    git branch -M main
+6. Add the GitHub origin/destination
+    git remote add origin [URL.git]
+7. Push your commit
+    git push -u origin main
